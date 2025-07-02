@@ -1,6 +1,7 @@
 h1 {
     font-family: "Lucida Console", "Courier New", monospace;
-    color: blue
+    color: blue;
+    text-align: center;
 }
 body {
     font-family: "Lucida Console", "Courier New", monospace;
@@ -11,4 +12,35 @@ h2 {
   top: 0;
   background-color: lightblue;
   border: 2px solid #09449e;
+  text-align: center;
+}
+
+.notable-women{
+
+}
+.notable-women-image{
+  width: 8rem;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.notable-women-name{
+  background-color: floralwhite;
+  text-align:center;
+}
+
+.notable-women-description{
+  /* background-color: floralwhite; */
+}
+
+.pay-gap-2022{
+  width:20rem;
+   display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+li{
+  list-style: none;
 }
