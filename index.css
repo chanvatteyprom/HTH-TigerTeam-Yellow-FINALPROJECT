@@ -14,7 +14,13 @@ h2 {
   border: 2px solid #09449e;
   text-align: center;
 }
-
+.solutionlink{
+  text-align: center;
+}
+.organizationlist{
+  display: flex;
+  flex-direction: column;
+}
 .notable-women{
 
 }
