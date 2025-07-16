@@ -1,3 +1,9 @@
+.website-logo {
+  width: 25rem;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
 h1 {
     font-family: "Lucida Console", "Courier New", monospace;
     color: blue;
@@ -18,8 +24,15 @@ h2 {
   text-align: center;
 }
 .organizationlist{
+  width: 15rem;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
   flex-direction: column;
+  text-align: center;
+}
+.orgsIntro {
+  text-align: center;
 }
 .notable-women{
 
@@ -33,7 +46,6 @@ h2 {
 }
 
 .notable-women-name{
-  background-color: floralwhite;
   text-align:center;
 }
 
