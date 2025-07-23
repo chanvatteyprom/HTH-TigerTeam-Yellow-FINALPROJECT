@@ -4,7 +4,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-h1 {
+.WebTitle {
     font-family: "Lucida Console", "Courier New", monospace;
     color: blue;
     text-align: center;
@@ -36,6 +36,9 @@ h2 {
 }
 .notable-women{
 
+}
+.organizationDescription {
+  text-align: center
 }
 .notable-women-image{
   width: 8rem;

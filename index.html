@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet"href="index.css"/>
     <meta charset="UTF-8">
@@ -26,7 +27,13 @@
     
 -->
 <body>
-    <h1>
+    <h1> Table of Contents </h1>
+    <button id = "about">About Us</button>
+    <button id = "solutions">Solutions</button>
+    <button id = "gpg">Gender Pay Gap</button>
+    <button id = "nwb">Notable Women in Tech</button>
+   
+    <h1 class="WebTitle">
         Women In Tech
     </h1>
     <img 
@@ -36,7 +43,7 @@
         This website will be about women in tech. Topics ranges from the experience of being a women in tech, gender pay gap, and data privacy in general
     </p>
 
-    <h2>
+    <h2 class = "AboutUsHeader">
         About Us
     </h2>
     <p>
@@ -161,7 +168,7 @@
 <ul class= "organizationlist">
     <li> <a  href="https://www.wearebgc.org/">Black Girls Code</a> </li>
     <img src="blackgirlscode.webp">
-    <p>Black Girls Code is a nonprofit founded in 2011 to empower 
+    <p class = "organizationDescription">Black Girls Code is a nonprofit founded in 2011 to empower 
         Black girls and girls of color through coding and STEM education. 
         It offers programs like workshops, camps, and clubs to teach skills 
         in programming, robotics, and tech development. The organization 
@@ -169,25 +176,30 @@
         leaders in the tech industry.</p>
     <li><a href ="https://girlswhocode.com/about-us"> Girls Who Code</a></li>
     <img src="girlswhocode.webp">
-    <p>Girls Who Code is a nonprofit organization dedicated to closing the 
+    
+    <p class = "organizationDescription">Girls Who Code is a nonprofit organization dedicated to closing the 
         gender gap in technology by equipping young women with computer science
          skills. Through clubs, summer programs, and college initiatives, it 
          empowers girls to pursue careers in tech. The organization fosters a 
-         supportive community that celebrates sisterhood, bravery, and resilience.</p>
-    <a href="https://ncwit.org/">NCWIT</a>
+         supportive community that celebrates sisterhood, bravery, and resilience.
+        </p>
+
+    <li><a href="https://ncwit.org/">NCWIT</a></li>
     <img src="ncwit.webp"></ul>
-    <p>The National Center for Women & Information Technology (NCWIT) is a 
+    
+    <p class = "organizationDescription">The National Center for Women & Information Technology (NCWIT) is a 
         nonprofit that works to increase the participation of women and girls in 
         computing. It supports schools, businesses, and organizations with programs 
         and resources to promote inclusion in tech. NCWIT aims to create lasting 
-        change by helping more women enter and thrive in the tech industry.</p>
+        change by helping more women enter and thrive in the tech industry.
+    </p>
     
 
 
     <h2>
         Gender Pay Gap
     </h2>
-    <img src="/images/pay_gap-2022.jpeg" alt="Pay Gap 2022" class="pay-gap-2022">
+    <img src="./images/pay_gap-2022.jpeg" alt="Pay Gap 2022" class="pay-gap-2022">
     <ol>
         <li>
             What Is the Gender Pay Gap?
@@ -201,7 +213,7 @@ Example: If women earn 90 cents for every dollar a man earns, the pay gap is 10%
 
         </li>
         </ol>
-    <h2>
+    <h2 id ="NotableWomenHeader">
         Notable Women In Tech
     </h2>
 
@@ -220,13 +232,13 @@ Example: If women earn 90 cents for every dollar a man earns, the pay gap is 10%
             </li>
 
             <li>
-                <img src="/images/Ada_Lovelace.png" alt="Ada LoveLace" class="notable-women-image">
+                <img src="./images/Ada_Lovelace.png" alt="Ada LoveLace" class="notable-women-image">
                 <h1 class="notable-women-name"><a href="https://en.wikipedia.org/wiki/Ada_Lovelace">Ada LoveLace</a></h1>
                 <p>Ada Lovelace, was an English mathematician and writer chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. 
                     She was the first to recognise that the machine had applications beyond pure calculation. </p>
             </li>
             <li>
-                <img src="/images/Annie_Easley.jpeg" alt="Annie_Easley" class="notable-women-image">
+                <img src="./images/Annie_Easley.jpeg" alt="Annie_Easley" class="notable-women-image">
                 <h1 class="notable-women-name">
                     <a href="https://en.wikipedia.org/wiki/Annie_Easley">Annie Easley</a>
                 </h1>
@@ -250,6 +262,8 @@ Example: If women earn 90 cents for every dollar a man earns, the pay gap is 10%
         2) Ada LoveLace
         3) Annie Easley
     -->
+<script src="script.js">
 
+</script>
 </body>
 </html>
