@@ -7,60 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Women In Tech</title>
 </head>
-
-<!--
-    TODOS:
-    1) left-align organization images, right-align text
-    descriptions
-    2) Fix themeing:
-    - colors, bg color
-    - font style, font color
-    
-    3) Add more images for:
-    - Gender Pay Gap
-    - Solutions
-    - About Us
-
-    4) Navigation bar
-     - Links to the subtopics 
-
-    
--->
-<body>
+<body class = "organizationDescription bodyLight" id = "mode">
+    <button class ="button" id = "modeButton">Mode</button>
     <h1> Table of Contents </h1>
-    <button id = "about">About Us</button>
-    <button id = "solutions">Solutions</button>
-    <button id = "gpg">Gender Pay Gap</button>
-    <button id = "nwb">Notable Women in Tech</button>
-   
-    <h1 class="WebTitle">
-        Women In Tech
-    </h1>
+    <button class ="button" id = "about">About Us</button>
+    <button class ="button" id = "solutions">Solutions</button>
+    <button class ="button" id = "gpg">Gender Pay Gap</button>
+    <button class ="button" id = "nwb">Notable Women in Tech</button>
+
     <img 
         src="womenintech-logo-2024.png" class="website-logo">
     </img>
-    <p>
+    <p >
         This website will be about women in tech. Topics ranges from the experience of being a women in tech, gender pay gap, and data privacy in general
     </p>
 
-    <h2 class = "AboutUsHeader">
+    <h2 id = "AboutUsHeader">
         About Us
     </h2>
     <p>
         Our mission is to empower, celebrate, and elevate women in technology by providing a dynamic platform for news, historical insights, and growth opportunities. We are dedicated to telling the untold stories of trailblazers, spotlighting current innovators, and connecting future leaders with the resources, community, and inspiration they need to thrive. Through education, advocacy, and representation, we aim to shape a more inclusive and equitable tech industry for all.
     </p>
-    <h2>
+    <h2 id = "SolutionsHeader">
         Solutions
     </h2>
-    <!-- 
-        Have links to organizations that are solutions
-        - Their name and their link to their Wikipedia
-    -->
     <ol> 
         <li> 
-            Lack of Representation & Visibility Struggles:
-
-    Few female role models in leadership positions.
+            Lack of Representation & Visibility Struggles: 
+            Few female role models in leadership positions.
 
     Limited media coverage of women’s contributions in tech.
 
@@ -139,9 +113,7 @@
 
         </li>
         <li>
-            Access to Funding & Entrepreneurship Support Struggles:
-
-    Underfunded women-led startups.
+            Access to Funding & Entrepreneurship Support Struggles: Underfunded women-led startups.
 
     Limited VC access for female founders.
 
@@ -164,18 +136,17 @@
 </li>
     
 </ol>
-<li class = "orgsIntro"> Organizations that support women in tech:</li>
-<ul class= "organizationlist">
-    <li> <a  href="https://www.wearebgc.org/">Black Girls Code</a> </li>
-    <img src="blackgirlscode.webp">
+<li> Organizations that support women in tech:</li>
+   <ul class= "organizationlist"><li> <a  href="https://www.wearebgc.org/">Black Girls Code</a> </li>
+    <img src="blackgirlscode.webp"></ul> 
     <p class = "organizationDescription">Black Girls Code is a nonprofit founded in 2011 to empower 
         Black girls and girls of color through coding and STEM education. 
         It offers programs like workshops, camps, and clubs to teach skills 
         in programming, robotics, and tech development. The organization 
         aims to train one million girls by 2040, helping them become future
         leaders in the tech industry.</p>
-    <li><a href ="https://girlswhocode.com/about-us"> Girls Who Code</a></li>
-    <img src="girlswhocode.webp">
+    <ul class= "organizationlist"><li> <a href ="https://girlswhocode.com/about-us"> Girls Who Code</a></li>
+    <img src="girlswhocode.webp"></ul>
     
     <p class = "organizationDescription">Girls Who Code is a nonprofit organization dedicated to closing the 
         gender gap in technology by equipping young women with computer science
@@ -184,7 +155,7 @@
          supportive community that celebrates sisterhood, bravery, and resilience.
         </p>
 
-    <li><a href="https://ncwit.org/">NCWIT</a></li>
+    <ul class= "organizationlist"><li><a href="https://ncwit.org/">NCWIT</a></li>
     <img src="ncwit.webp"></ul>
     
     <p class = "organizationDescription">The National Center for Women & Information Technology (NCWIT) is a 
@@ -192,11 +163,8 @@
         computing. It supports schools, businesses, and organizations with programs 
         and resources to promote inclusion in tech. NCWIT aims to create lasting 
         change by helping more women enter and thrive in the tech industry.
-    </p>
-    
-
-
-    <h2>
+    </p>    
+    <h2 id = "GenderPayGapHeader">
         Gender Pay Gap
     </h2>
     <img src="./images/pay_gap-2022.jpeg" alt="Pay Gap 2022" class="pay-gap-2022">
@@ -247,23 +215,7 @@ Example: If women earn 90 cents for every dollar a man earns, the pay gap is 10%
             </li>
         </ul>
    </section>
-
-    <!-- 
-        TODO:
-        - Complete Notable WOmen section 
-
-        3 Women in Tech
-        - Link to their biography
-        - Image
-        - Description 
-
-
-        1) Grace Hopper
-        2) Ada LoveLace
-        3) Annie Easley
-    -->
 <script src="script.js">
-
 </script>
 </body>
 </html>

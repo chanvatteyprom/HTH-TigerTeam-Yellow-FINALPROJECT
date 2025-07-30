@@ -4,14 +4,30 @@
   margin-left: auto;
   margin-right: auto;
 }
-.WebTitle {
-    font-family: "Lucida Console", "Courier New", monospace;
-    color: blue;
-    text-align: center;
+
+.button {
+  border-radius: 10px;
+  background-color: rgb(231, 242, 246);
+  border: 0;
+  padding: 10px;
+  transition-duration: 0.4s;
 }
+
+.button:hover{ 
+  cursor:pointer;
+  background-color: rgb(168, 222, 241);
+}
+
 body {
     font-family: "Lucida Console", "Courier New", monospace;
-    color: rgb(0, 0, 0)
+    color: rgb(0, 0, 0);
+}
+.bodyLight {
+  background-color: rgb(194, 217, 224);
+}
+
+.bodyDark {
+  background-color: rgb(3, 3, 149);
 }
 h2 {
   position: sticky;
@@ -20,9 +36,11 @@ h2 {
   border: 2px solid #09449e;
   text-align: center;
 }
+
 .solutionlink{
   text-align: center;
 }
+
 .organizationlist{
   width: 15rem;
   display: flex;
@@ -31,29 +49,13 @@ h2 {
   flex-direction: column;
   text-align: center;
 }
-.orgsIntro {
-  text-align: center;
-}
-.notable-women{
 
-}
 .organizationDescription {
   text-align: center
-}
-.notable-women-image{
-  width: 8rem;
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-
 }
 
 .notable-women-name{
   text-align:center;
-}
-
-.notable-women-description{
-  /* background-color: floralwhite; */
 }
 
 .pay-gap-2022{
@@ -62,6 +64,14 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
+
+.notable-women-image{
+  width: 8rem;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 li{
   list-style: none;
 }
