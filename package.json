@@ -1,0 +1,26 @@
+{
+  "name": "hth-tigerteam-yellow-finalproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chanvatteyprom/HTH-TigerTeam-Yellow-FINALPROJECT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chanvatteyprom/HTH-TigerTeam-Yellow-FINALPROJECT/issues"
+  },
+  "homepage": "https://github.com/chanvatteyprom/HTH-TigerTeam-Yellow-FINALPROJECT#readme",
+  "devDependencies": {
+    "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "animejs": "^4.1.3"
+  }
+}

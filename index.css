@@ -75,3 +75,16 @@ h2 {
 li{
   list-style: none;
 }
+
+/**
+  MEDIA RESPONSE FOR MOBILE DESIGN
+*/
+@media screen and (max-width: 449px) {
+  body {
+    font-size: 18px;
+    padding: 10px;
+  }
+  img {
+    max-width: 100%;
+  }
+}
