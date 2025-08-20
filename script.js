@@ -1,3 +1,5 @@
+  const { animate,text, stagger } = anime;
+
 const nwbbutton = document.querySelector("#nwb");
 nwbbutton.addEventListener("click", nwbFunc);
 function nwbFunc() {
@@ -33,3 +35,21 @@ function modeFunc() {
          else {bodyColor.classList.remove("bodyDark");
             bodyColor.classList.add("bodyLight");}
 document.getElementById("modeButton").classList.contains("bodyLight");}
+
+
+
+const headers = document.querySelectorAll(".animation-word");
+const { chars } = text.split(headers, {
+  chars: { wrap: 'clip' },
+});
+
+animate(chars, {
+  y: [
+    { to: ['100%', '0%'] },
+    { to: '-100%', delay: 750, ease: 'in(3)' },
+  ],
+  duration: 750,
+  ease: 'out(3)',
+  delay: stagger(50),
+  loop: true
+});

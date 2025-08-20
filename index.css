@@ -24,10 +24,15 @@ body {
 }
 .bodyLight {
   background-color: rgb(194, 217, 224);
+  a{color:rgba(46, 46, 252, 0.939);}
+  a:visited{color:rgba(46, 46, 252, 0.939);}
 }
 
 .bodyDark {
   background-color: rgb(3, 3, 149);
+  .website-text{color:white;}
+  a{color:rgb(117, 209, 239);}
+  a:visited{color:rgb(117, 209, 239);}
 }
 h2 {
   position: sticky;

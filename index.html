@@ -9,7 +9,7 @@
 </head>
 <body class = "organizationDescription bodyLight" id = "mode">
     <button class ="button" id = "modeButton">Mode</button>
-    <h1> Table of Contents </h1>
+    <h1 class="animation-word website-text" > Table of Contents </h1>
     <button class ="button" id = "about">About Us</button>
     <button class ="button" id = "solutions">Solutions</button>
     <button class ="button" id = "gpg">Gender Pay Gap</button>
@@ -18,21 +18,21 @@
     <img 
         src="womenintech-logo-2024.png" class="website-logo">
     </img>
-    <p >
+    <p class="website-text">
         This website will be about women in tech. Topics ranges from the experience of being a women in tech, gender pay gap, and data privacy in general
     </p>
 
-    <h2 id = "AboutUsHeader">
+    <h2 id = "AboutUsHeader" class="animation-word">
         About Us
     </h2>
-    <p>
+    <p class="website-text">
         Our mission is to empower, celebrate, and elevate women in technology by providing a dynamic platform for news, historical insights, and growth opportunities. We are dedicated to telling the untold stories of trailblazers, spotlighting current innovators, and connecting future leaders with the resources, community, and inspiration they need to thrive. Through education, advocacy, and representation, we aim to shape a more inclusive and equitable tech industry for all.
     </p>
-    <h2 id = "SolutionsHeader">
+    <h2 id = "SolutionsHeader" class="animation-word">
         Solutions
     </h2>
-    <ol> 
-        <li> 
+    <ol  class="website-text">
+        <li > 
             Lack of Representation & Visibility Struggles: 
             Few female role models in leadership positions.
 
@@ -134,9 +134,9 @@
     She Loves Tech competition
         
 </li>
-    
-</ol>
+
 <li> Organizations that support women in tech:</li>
+
    <ul class= "organizationlist"><li> <a  href="https://www.wearebgc.org/">Black Girls Code</a> </li>
     <img src="blackgirlscode.webp"></ul> 
     <p class = "organizationDescription">Black Girls Code is a nonprofit founded in 2011 to empower 
@@ -163,12 +163,13 @@
         computing. It supports schools, businesses, and organizations with programs 
         and resources to promote inclusion in tech. NCWIT aims to create lasting 
         change by helping more women enter and thrive in the tech industry.
-    </p>    
-    <h2 id = "GenderPayGapHeader">
+    </p>
+</ol>    
+    <h2 id = "GenderPayGapHeader" class="animation-word">
         Gender Pay Gap
     </h2>
     <img src="./images/pay_gap-2022.jpeg" alt="Pay Gap 2022" class="pay-gap-2022">
-    <ol>
+    <ol class="website-text">
         <li>
             What Is the Gender Pay Gap?
 It’s not just about men and women doing different jobs.
@@ -181,11 +182,11 @@ Example: If women earn 90 cents for every dollar a man earns, the pay gap is 10%
 
         </li>
         </ol>
-    <h2 id ="NotableWomenHeader">
+    <h2 id ="NotableWomenHeader" class="animation-word">
         Notable Women In Tech
     </h2>
 
-   <section>
+   <section class="website-text">
         <ul>
             <li class="notable-women">
                 <img src="images/Grace_Hopper.jpeg" alt="Grace Hopper" class="notable-women-image">
@@ -215,7 +216,10 @@ Example: If women earn 90 cents for every dollar a man earns, the pay gap is 10%
             </li>
         </ul>
    </section>
-<script src="script.js">
+<script src="https://cdn.jsdelivr.net/npm/animejs/lib/anime.iife.min.js"></script>
+
+<script>
 </script>
+<script src="script.js" type="module" defer></script>
 </body>
 </html>
