@@ -1,6 +1,6 @@
 .website-logo {
   width: 25rem;
-  display:block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -13,26 +13,36 @@
   transition-duration: 0.4s;
 }
 
-.button:hover{ 
-  cursor:pointer;
+.button:hover {
+  cursor: pointer;
   background-color: rgb(168, 222, 241);
 }
 
 body {
-    font-family: "Lucida Console", "Courier New", monospace;
-    color: rgb(0, 0, 0);
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: rgb(0, 0, 0);
 }
 .bodyLight {
   background-color: rgb(194, 217, 224);
-  a{color:rgba(46, 46, 252, 0.939);}
-  a:visited{color:rgba(46, 46, 252, 0.939);}
+  a {
+    color: rgba(46, 46, 252, 0.939);
+  }
+  a:visited {
+    color: rgba(46, 46, 252, 0.939);
+  }
 }
 
 .bodyDark {
   background-color: rgb(3, 3, 149);
-  .website-text{color:white;}
-  a{color:rgb(117, 209, 239);}
-  a:visited{color:rgb(117, 209, 239);}
+  .website-text {
+    color: white;
+  }
+  a {
+    color: rgb(117, 209, 239);
+  }
+  a:visited {
+    color: rgb(117, 209, 239);
+  }
 }
 h2 {
   position: sticky;
@@ -42,11 +52,11 @@ h2 {
   text-align: center;
 }
 
-.solutionlink{
+.solutionlink {
   text-align: center;
 }
 
-.organizationlist{
+.organizationlist {
   width: 15rem;
   display: flex;
   margin-left: auto;
@@ -56,28 +66,31 @@ h2 {
 }
 
 .organizationDescription {
-  text-align: center
+  text-align: center;
 }
 
-.notable-women-name{
-  text-align:center;
+.motable-women {
+  position: relative;
+}
+.notable-women-name {
+  text-align: center;
 }
 
-.pay-gap-2022{
-  width:20rem;
-   display:block;
+.pay-gap-2022 {
+  width: 20rem;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.notable-women-image{
+.notable-women-image {
   width: 8rem;
-  display:block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-li{
+li {
   list-style: none;
 }
 
@@ -92,4 +105,9 @@ li{
   img {
     max-width: 100%;
   }
+}
+
+.test {
+  margin: 0;
+  position: relative;
 }
