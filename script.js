@@ -51,6 +51,7 @@ function modeFunc() {
 const headers = document.querySelectorAll(".animation-word");
 
 headers.forEach((header) => {
+  // BELOW IS CODE FROM ANIME.JS OFFICIAL DOCUMENTATION - https://animejs.com/documentation/text/split/textsplitter-settings/chars
   const { chars } = text.split(header, {
     chars: { wrap: "clip" },
   });
